@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	align-items: center;
+	margin: auto;
+	font-family: sans-serif;
+	color: #2d3c49;
+}
+
+h2 {
+	margin: 0;
+}
+
+.header-logo {
+  height: 80px;
+	
+}
+
+.header-title, .header-subtitle {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.header-title, .header-subtitle, .featured-work {
+	font-weight: lighter;
+}
+
+.header-title {
+	font-size: 36px;
+}
+
+.header-subtitle {
+	text-align: end;
+	font-size: 28px;
+}
+
+nav ul{
+  text-align: center;
+}
+
+.aboutme_para{
+  text-align:center; 
+  font-family:gabriola; 
+  font-size:20px; 
+  color:#000000
+}
+.section-title {
+	font-size: 22px;
+	text-align: center;
+}
+
+.project_list {
+	padding: 0;
+	list-style: none;
+}
+
+.project_block {
+	margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects .btn {
+	opacity: 0.7;
+}
+.card-body{
+  text-align: center;
+}
+
+footer {
+  padding: 0;
+  background-color: #d8d8d8;
+  margin: 0;
+  justify-content: center;
+}
+
+footer ul {
+    text-align: center;
+    padding: 0;
+    
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 30px;
+}
+
+.contact_icons{
+  color: black;
+}
+
+.copyright_statement{
+  background-color: black;
+  color:white;
+  justify-content: center;
+  padding: 0;
+}
+
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/****************************  Media Queries  ****************************/
+@media screen and (min-width: 340px) {
+	.header-logo {
+		margin-left: 0;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.header-title {
+		font-size: 65px;
+	}
+
+	.section-title {
+		font-size: 35px;
+	}
+}
